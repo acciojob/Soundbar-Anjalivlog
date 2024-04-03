@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+
+#buttons-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background-color: #9866C5;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: lightgray;
+  border: none;
+  border-radius: 2px;
+}
+
+.stop {
+  background-color: lightgray;
+  color: black;
+}
